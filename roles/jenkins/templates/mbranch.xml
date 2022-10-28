@@ -23,10 +23,11 @@
             <jenkins.branch.BranchSource>
                 <source class="jenkins.plugins.git.GitSCMSource" plugin="git">
                     <id>8efa3624-b217-4cc9-93f4-b1056b7cfc03</id>
-                    <remote>https://github.com/Ayodeji61/cart</remote>
+                    <remote>https://github.com/Ayodeji61/{{item.name}}</remote>
                     <credentialsId></credentialsId>
                     <traits>
                         <jenkins.plugins.git.traits.BranchDiscoveryTrait/>
+                        <jenkins.plugins.git.traits.TagDiscoveryTrait/>
                     </traits>
                 </source>
                 <strategy class="jenkins.branch.DefaultBranchPropertyStrategy">
