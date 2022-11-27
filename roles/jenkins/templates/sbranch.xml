@@ -17,7 +17,7 @@
             <configVersion>2</configVersion>
             <userRemoteConfigs>
                 <hudson.plugins.git.UserRemoteConfig>
-                    <url>https://github.com/Ayodeji61/jenkins</url>
+                    <url>https://github.com/Ayodeji61/{{item.repo}}</url>
                 </hudson.plugins.git.UserRemoteConfig>
             </userRemoteConfigs>
             <branches>

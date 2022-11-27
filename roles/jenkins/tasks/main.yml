@@ -22,5 +22,5 @@
 - name: Include Single Branch task file
   ansible.builtin.include_tasks: sbranch.yml
   loop:
-    - { name: "infra-create"}
+    - { name: "infra-create", repo: "roboshop-mutable-infra"}
 
